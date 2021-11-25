@@ -74,5 +74,4 @@ public class MainClass
         gameIslemlerPC.playGame();
 
     }
-
 }
