@@ -1,4 +1,4 @@
-package com.oopDesign.encapsulation;
+package com.oopDesign.encapsulationAndPolymorphisim;
 
 public class StudentClass
 {
