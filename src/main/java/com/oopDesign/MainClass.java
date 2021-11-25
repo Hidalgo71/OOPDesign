@@ -1,6 +1,6 @@
 package com.oopDesign;
 
-import com.oopDesign.abstraction.GameIslemlerImplPC;
+import com.oopDesign.nonAbstract.GameIslemlerImplPC;
 import com.oopDesign.encapsulationAndPolymorphisim.StudentClass;
 import com.oopDesign.encapsulationAndPolymorphisim.TeacherClass;
 import com.oopDesign.nonAbstract.GameIslemler;
@@ -72,6 +72,10 @@ public class MainClass
         GameIslemler gameIslemlerPC = new GameIslemlerImplPC();
         String gamePC = gameIslemlerPC.gameDown();
         gameIslemlerPC.playGame();
+
+
+        //==================
+
 
     }
 }

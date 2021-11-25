@@ -1,8 +1,6 @@
-package com.oopDesign.abstraction;
+package com.oopDesign.nonAbstract;
 
-import com.oopDesign.nonAbstract.GameIslemler;
-
-public class GameIslemlerImplPC implements GameIslemler
+public class GameIslemlerImplPC implements GameIslemler, WindowsIslemler
 {
 
     @Override
